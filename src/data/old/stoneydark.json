@@ -1,0 +1,6 @@
+{
+  "description": "Additions to Shadowdark generators using Stoney's house rules.",
+  "npc": {
+    "accents": ["Cockney", "Yorkshire", "British Standard", "West Country", "Irish", "Scottish", "American Standard", "Southern American", "Russian", "French", "German", "Spanish", "Italian"]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "description": "Similar to Foundry Rolltable format, this data is structured with a text label (essentially a dice result), a weighting (1 default if all are equal), and a number corresponding to the dice roll (not provided here since the number of results is not necessary).",
+  "npc": {
+    "age": "[[RANDINT]]"
+  }
+}

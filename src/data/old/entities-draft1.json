@@ -1,0 +1,44 @@
+{
+  "entityObjects": [
+    {
+      "npc1": {
+        "npcName": {
+          "tableValues": ["Derek", "Jamal", "Jack"],
+          "rollMethod": "randTable",
+          "choices": 1,
+          "evalDice": true,
+          "evalObjects": true
+        },
+        "npcHobbies": {
+          "tableValues": ["Fishing", "Hiking", "Falconry", "Swimming", "Whittling", "Chess"],
+          "rollMethod": "randTable",
+          "choices": 3,
+          "evalDice": true,
+          "evalObjects": true
+        }
+      }
+    },
+    {
+      "item1": {
+        "itemPersonality": {
+          "tableValues": ["Has the personality of {{npc1}}", "Enlightened", "Greedy"],
+          "rollMethod": "randTable",
+          "choices": 1,
+          "evalDice": true,
+          "evalObjects": true
+        }
+      }
+    },
+    {
+      "marshEncounters": {
+        "encounters": {
+          "tableValues": ["3d6 kobolds", "2d4 orcs", "3d10 rats", "You meet up with: {{npc1}}"],
+          "rollMethod": "randTable",
+          "choices": 1,
+          "evalDice": true,
+          "evalObjects": true
+        }
+      }
+    }
+  ]
+}

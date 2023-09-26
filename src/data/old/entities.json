@@ -1,0 +1,41 @@
+{
+  "entityObjects": [
+    {
+      "entityMetadata": {
+        "entityName": "NPC Generator 1"
+      },
+      "entityData": [
+        {
+          "tableName": "npcName",
+          "tableValues": ["Jack"]
+        },
+        {
+          "tableName": "npcHobbies",
+          "tableValues": ["Fishing", "Hiking", "Falconry"]
+        }
+      ]
+    },
+    {
+      "entityMetadata": {
+        "entityName": "Item 1"
+      },
+      "entityData": [
+        {
+          "tableName": "itemPersonality",
+          "tableValues": ["Enlightened"]
+        }
+      ]
+    },
+    {
+      "entityMetadata": {
+        "entityName": "Encounters 1"
+      },
+      "entityData": [
+        {
+          "tableName": "marshEncounters",
+          "tableValues": ["5 kobolds"]
+        }
+      ]
+    }
+  ]
+}
